@@ -8,6 +8,10 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+.hidden {
+    display: none;
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -739,7 +743,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  /*font-family: inherit;*/
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -895,7 +899,7 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 5px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
@@ -4600,7 +4604,17 @@ input[type="submit"].btn.btn-mini {
   display: block;
   float: left;
   margin: 0 10px 0 0;
+    background-color: rgba(229, 0, 0, 0);
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
 }
+
+.navbar .nav:hover {
+     /*background-color: rgba(245, 210, 105, .8);*/
+}
+
 
 .navbar .nav.pull-right {
   float: right;
@@ -6170,3 +6184,4 @@ a.badge:focus {
 .philosophy {
   background-image: url(dots.jpg);
 }
+

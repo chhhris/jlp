@@ -21,6 +21,12 @@
  *  Work: Lead Product Designer @ http://kyruus.com
  */
 
+@font-face
+{
+font-family: 'OstrichSansBold';
+src: url('../font/ostrich-black.ttf');
+}
+
 @font-face{
   font-family:'FontAwesome';
   src:url('../font/fontawesome-webfont.eot?v=3.0.1');
